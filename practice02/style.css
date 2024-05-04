@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menustyle {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.heading1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.p_style {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7989;
+}
+
+.heading2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.about_photo {
+    border-radius: 10px;
+}
+
+.fill_in {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1 px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    /* font-family: sans-serif; */
+}
+
+.button_style {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
