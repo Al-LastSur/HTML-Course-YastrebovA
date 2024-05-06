@@ -1,31 +1,85 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #2f2e41;
-}
-
-.header__link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #fff;
-}
-
-.title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 113px;
-    color: #6c63ff;
-    mix-blend-mode: normal;
-}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: "Raleway", sans-serif;
+        }
+        
+        .center {
+            padding-left: calc(50% - 580px);
+            padding-right: calc(50% - 580px);
+        }
+        /* .container {
+    width: 1280px;
+    margin: 0 auto;
+} just to remember of one possible option - put everything inside the container*/
+        
+        .header {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #2f2e41;
+            display: flex;
+            gap: 32px;
+        }
+        
+        .top {
+            width: 600px;
+            padding-top: 84px;
+            padding-bottom: 84px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            gap: 22px;
+        }
+        
+        .header__link {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #fff;
+        }
+        
+        .title {
+            width: 600;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 113px;
+            color: #6c63ff;
+            mix-blend-mode: normal;
+        }
+        
+        .about__content {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text {
+            width: 462px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            color: #7d7987;
+            mix-blend-mode: normal;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
