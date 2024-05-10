@@ -6,41 +6,58 @@
 a {
     text-decoration: none;
 }
+body { font-family: "Gilroy", sans-serif;
+    padding-top: 41px;
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+
+
+}
 
 .top {}
 
 .top__header {
-    margin-top: 41px;
-    margin-bottom: 374px;
+    margin-left: 41px;
+    margin-right: 374px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
 }
 
 .top__logo {
-    margin-top: 41px;
-    margin-bottom: 374px;
 }
 
 .top__links {
-    margin-top: 41px;
-    margin-bottom: 374px;
+    width: 533px;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .active_link {
     color: orange;
     font-size: 14px;
+    line-height: 16.41px;
     font-weight: 500;
 }
 
 .links {
+    display: flex;
+    justify-content: space-between;
     color: black;
     font-size: 14px;
+    line-height: 16.41px;
     font-weight: 500;
 }
 
-.top__content {}
+.top__content {
+    display: flex;
+}
 
 .top__info {}
 
 .heading1 {
+    width: 522px;
     font-size: 60px;
     line-height: 70px;
     color: #000;
@@ -49,24 +66,34 @@ a {
 }
 
 .text__info {
+    width: 466px;
     margin-bottom: 37px;
     color: #888;
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    line-height: 23.44px;;
 }
 
-.top__buttons {}
+.top__buttons {
+
+}
 
 .active_button {
     background-color: #f25822;
     color: #fff;
     border: 4px solid #f25822;
     border-radius: 9999px;
+    width: 140px;
+    height: 50px;
 }
 
 .inactive_button {
     background-color: #fafafa;
     color: #888;
     border: 4px solid #fafafa;
-    border-radius: 9999px
+    border-radius: 9999px;
+    width: 140px;
+    height: 50px;
 }
 
 .top__logos {}
