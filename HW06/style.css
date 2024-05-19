@@ -6,7 +6,7 @@
 a {
     text-decoration: none;
 }
-body { font-family: "Gilroy", sans-serif;
+body { font-family: sans-serif;
     padding-top: 41px;
     padding-left: calc(50% - 585px);
     padding-right: calc(50% - 585px);
@@ -103,4 +103,53 @@ body { font-family: "Gilroy", sans-serif;
 .logos {
     padding-top: 97px;
     padding-bottom: 97px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    gap: 30px;
+    justify-content: center;
+    padding-top: 264px;
+    padding-bottom: 243px;
+}
+.item{
+    background: #132035;
+    border-radius: 10px;
+    padding: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px; */
+    display: grid;
+    justify-items: center;
+    gap:30px;
+    font-size: 26px;
+
+}
+.item_big{
+    background: #132035;
+    border-radius: 10px;
+    padding: 30px;
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+.heading{
+    font-style: normal;
+    font-family: "Gilroy-Medium";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+
+    color: #fff;
+}
+.item_text{
+    font-style: normal;
+    font-family: "Gilroy-Medium";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
 }
