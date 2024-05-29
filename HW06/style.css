@@ -248,7 +248,6 @@ body { font-family: sans-serif;
 .section3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(auto, auto);
     gap: 30px;
     justify-content: center;
     /* padding-top: 264px;
@@ -273,6 +272,8 @@ body { font-family: sans-serif;
     justify-items: center;
     gap: 30px;
     padding-bottom: 25px;
+    grid-column: span 3;
+    grid-row: span 1;
 }
 .card_sec3{
     width: 360px;
