@@ -6,13 +6,17 @@
 a {
     text-decoration: none;
 }
-body { font-family: sans-serif;
+body { font-family: "Open sans", sans-serif;
     padding-top: 41px;
-    padding-left: calc(50% - 585px);
-    padding-right: calc(50% - 585px);
-
-
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
 }
+
+.center{
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50%-573px);
+}
+
 
 .top {}
 
@@ -53,14 +57,17 @@ body { font-family: sans-serif;
 .top__content {
     display: flex;
     justify-content: center;
+    /* flex-wrap: wrap; */
     gap: 39px;
 }
 
-.top__info {}
+.top__info {
+    max-width: 604px;
+}
 
 .heading1 {
-    width: 522px;
-    font-size: 60px;
+    /* width: 522px; */
+    font-size: 55px;
     line-height: 70px;
     color: #000;
     font-weight: 700;
@@ -71,7 +78,7 @@ body { font-family: sans-serif;
     width: 466px;
     margin-bottom: 37px;
     color: #888;
-    font-family: "Gilroy-Medium";
+    font-weight: medium;
     font-size: 20px;
     line-height: 23.44px;;
 }
@@ -136,7 +143,7 @@ body { font-family: sans-serif;
 }
 .heading{
     font-style: normal;
-    font-family: "Gilroy-Medium";
+    font-weight: medium;
     font-weight: 700;
     font-size: 25px;
     line-height: 125%;
@@ -146,7 +153,6 @@ body { font-family: sans-serif;
 }
 .item_text{
     font-style: normal;
-    font-family: "Gilroy-Medium";
     font-weight: 600;
     font-size: 16px;
     line-height: 160%;
@@ -162,14 +168,14 @@ body { font-family: sans-serif;
 }
 .header_sec1{
     font-style: normal;
-    font-family: "Gilroy-Bold";
+    font-weight: bold;
     font-size: 45px;
     padding-bottom: 20px;
     line-height: auto;
 }
 .text_s1{
     font-style: normal;
-    font-family: "Gilroy-Regular";
+    font-weight: normal;
     font-size: 16px;
     line-height: 150%;
     padding-bottom: 35px;
@@ -183,7 +189,7 @@ body { font-family: sans-serif;
     background-color: #F25822;
     border-radius: 50px;
     font-style: normal;
-    font-family: "Gilroy-Bold";
+    font-weight: bold;
     font-size: 15px;
     font-weight: bold;
     line-height: auto;
@@ -227,21 +233,21 @@ body { font-family: sans-serif;
 }
 .header_cards{
     font-style: normal;
-    font-family: "Gilroy-Bold";
+    font-weight: bold;
     padding-bottom: 17px;
     font-size: 24px;
 }
 .card_link{
     padding-bottom: 17px;
     font-style: normal;
-    font-family: "Gilroy-Bold";
+    font-weight: bold;
     font-size: 11px;
     font-weight: bold;
 }
 .text_cards{
     padding-bottom: 25px;
     font-style: normal;
-    font-family: "Gilroy-Regular";
+    font-weight: normal;
     font-size: 15px;
     line-height: 150%;
 }
@@ -290,17 +296,23 @@ body { font-family: sans-serif;
 }
 .card_header_sec3{
     font-style: normal;
-    font-family: "Gilroy-Bold";
+    font-weight: bold;
     padding-bottom: 17px;
     font-size: 24px;
 }
 .central_header{
     font-style: normal;
-    font-family: "Gilroy-Bold";
+    font-weight: bold;
     font-size: 45px;}
 .text_sec3{
     font-style: normal;
-    font-family: "Gilroy-Regular";
+    font-weight: normal;
     padding-top: 13px;
     font-size: 15px;}
+@media (max-width:1024){
+    .center{
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
 }
+
